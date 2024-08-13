@@ -1,0 +1,75 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #c2c2c2,
+    ),
+    'success': (
+     'base': #909399,
+    ),
+    'error':  (
+      'base': #909399,
+    ),
+    'warning':  (
+      'base': #909399
+    ),
+  ),
+
+  $border-radius: (
+    'base': 0
+  ),
+
+  $collapse: (
+    'header-bg-color': transparent,
+    'content-bg-color':transparent,
+    'header-text-color': #222,
+    'content-text-color': #222,
+    'border-color': #c3c3c3
+  ),
+
+  $input: (
+    'bg-color': transparent,
+    'border': 1px solid #3a3a3a,
+    "color": #3a3a3a
+  ),
+
+  $text-color: (
+    'placeholder': #3a3a3a,
+  ),
+
+  $button: (
+    'bg-color': #343A47,
+    'border-color': transparent,
+    'hover-bg-color': #c2c2c2,
+    'hover-border-color': transparent,
+  ),
+
+  $descriptions: (
+    'table-border': none,
+    'item-bordered-label-background': transparent,
+  )
+
+  // $bg-color: #000000 !default
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;
+
+.el-descriptions__label:not(.is-bordered-label),
+.el-descriptions__content:not(.is-bordered-label),
+.el-descriptions__content.el-descriptions__cell.is-bordered-content,
+.el-descriptions__label.el-descriptions__cell.is-bordered-label {
+  color: #222;
+}
+
+.el-descriptions__body {
+  background-color: transparent;
+}
+
+.el-upload-dragger {
+  background-color: transparent;
+}
+
+@each $type in (success, info, warning, error) {
+  .el-message--#{$type} {
+    --el-message-text-color: #3a3a3a;
+  }
+}
