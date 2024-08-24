@@ -1,5 +1,7 @@
 项目概述
+
 OffChain Access - Connecting Physical Assets with Digital Trust
+
 
 核心功能
 
@@ -27,19 +29,30 @@ Lifecycle Management: After consumption, buyers can scan the NFC tag again to up
 Application in Other Real-World Assets:
 The OffChain Access system is not limited to whisky or consumable products; it can be applied to a wide range of real-world assets, such as: Luxury Goods, Art and Collectibles, Real Estate, Supply Chain, Automobiles
 
+
 代码仓库
+
 https://github.com/hkfish01/ETH_SZ
 
+
 项目团队
+
 Team Leader：hkfish01 https://github.com/hkfish01
+
 Solidity Contract： Arvin Lyu https://github.com/LxzLLL
+
 RFID and Backend: derekcz1991 https://github.com/derekcz1991
+
 Front: MineLi https://github.com/MineLi
 
 
+
 Deck 地址
+
 https://drive.google.com/file/d/1X-B2ccVKa-7Gt44Hxp0DOIyvnhKdmZ-C/view?usp=sharing
 
+
 项目演示
+
 https://youtu.be/GKIB_Sl6_dU
 
